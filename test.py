@@ -36,7 +36,7 @@ class FlaskTestCase(unittest.TestCase):
     def test_table_post(self):
         tester = app.test_client(self)
         response = tester.post('/login', data=dict(username="admin", password="admin"), follow_redirects=True)
-        self.assertIn(b'i am good', response.data)   
+        self.assertIn(b'I love guitars', response.data)   
 
 if __name__ == "__main__":
     unittest.main() 

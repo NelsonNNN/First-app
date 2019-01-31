@@ -14,3 +14,4 @@ with sqlite3.connect('trial.db') as connection:
     c.execute('INSERT INTO titles VALUES("Age", "24 years.")')
     c.execute('INSERT INTO titles VALUES("Likes", "Guitar.")')
     c.execute('INSERT INTO titles VALUES("Ambitions", "to join Andela.")')
+
