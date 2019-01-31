@@ -8,4 +8,8 @@
  <h1>Welcome to Flask Intro</h1>
         <br>
           <p>Click <a href='/'>here</a> to go home</p>
+  {% for tab in tables3 %}
+    <strong>Title:</strong> {{tab.title}}<br>
+    <strong>Description:</strong> {{tab.description}}<br>
+  {% endfor %}
 {% endblock  %}
